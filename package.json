@@ -1,0 +1,25 @@
+{
+  "name": "use-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --env.prod"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3",
+    "vue": "^3.0.0-alpha.11"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-alpha.11",
+    "css-loader": "^3.4.2",
+    "file-loader": "^6.0.0",
+    "ts-loader": "^6.2.2",
+    "url-loader": "^4.0.0",
+    "vue-loader": "^16.0.0-alpha.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
